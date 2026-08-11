@@ -70,7 +70,8 @@ nav {height: 100px; width: 100%; max-width: 1000px; margin: 0 auto; display: fle
 margin: 0 auto; text-align:center;}
 
 .about-me__info--container {display: flex; flex-direction: column; align-items: center; max-width: 600px;
-	 margin: 0 auto; text-align:center;}
+	 margin: 0 auto; text-align:center; gap: 24px;}
+	 
 
 
 .about-me__picture--mask {width: 100px; height: 100px; border-radius: 50%; overflow: hidden;
@@ -152,10 +153,12 @@ margin: 0 auto; text-align:center;}
 .project__description {position: absolute; top: 50%; left: 90px; transform: translateY(-50%);
 	max-width: 550px; z-index: 3; opacity: 0; transition: 450ms; opacity 300ms ease;}
 
+.project:hover .project__description {opacity: 1;}
 
 
 .project__description--title,  
-.project__description--sub-title, .project__description--para, .project__description--links 	{text-align:left; color: white;}
+.project__description--sub-title, .project__description--para, .project__description--links 
+	{text-align:left; color: white;}
 
 
 /* Footer */
