@@ -8,6 +8,9 @@ html, body {
 	margin: 0;
 	box-sizing: border-box;}
 
+	html {scroll-behavior: smooth;}
+
+
     h1, h2, h3, h4, h5, h6, span {color: #242424; text-align: center; line-height: 1.25
         ;}
 		
@@ -17,7 +20,7 @@ p {line-height: 1.5; font-size: 16px;}
 
 	a{text-decoration: none; position: relative;}
 	
-	.link__hover-effect:after {content: ""; position: absolute; width: 0; height: 3px; bottom: -3px; right: 0; 
+	.link__hover-effect:after {content: ""; position: absolute; width: 100%; height: 3px; bottom: -3px; left: 0; 
 	background: black; transition: all 300ms ease;}
 
 
@@ -199,7 +202,8 @@ margin: 0 auto; text-align:center;}
 .footer__anchor:hover .footer__logo--popper {transform: translateX(60px); opacity: 1;}
 
 
-.footer__social--list {width: 100%;max-width: 500px display: flex; justify-content: space-between; margin-bottom: 28px;}
+.footer__social--list {width: 100%;max-width: 500px; display: flex; justify-content: space-between;
+	 margin-bottom: 28px;}
 
 
 
